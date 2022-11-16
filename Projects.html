@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3450938317051756"
+       crossorigin="anonymous"></script>
+
+<title>Projects</title>
+<link rel="icon" type="image/x-icon" href="Personal Image.PNG">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="sidenav">
+    <a href="index.html">Profile</a>
+    <a href="Projects.html">Projects</a>
+    <a href="index.html">Contact</a>
+
+
+  <a  href="https://www.youtube.com/channel/UCbnAzfP0lLenYks2ks1tMiA" class="fa fa-youtube"></a>
+  <a href="https://www.facebook.com/cam.worthy/" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/Swipa215" class="fa fa-twitter"></a>
+  <a href="https://www.pinterest.com/camworthy9/" class="fa fa-pinterest"></a>
+  <a href="https://www.instagram.com/swipes215/" class="fa fa-instagram"></a>
+  <a href="https://github.com/JohnJetson215"  <i class="fa fa-github"></i></a>
+  </div>
+
+  <section id="projects">
+
+
+
+    <div class="wrapper">
+  <div class="box">
+    <h3>Projects</h3>
+  </div>
+</div>
+
+<h2 class="w3-center">Templates</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="Menu.png" alt="Menu" style="width:600px">
+  <img class="mySlides" src="Skyline.png" alt="Skyline" style="width:600px">
+  <img class="mySlides" src="iLoveCss.png" alt="Penguin" style="width:600px">
+  <img class="mySlides" src="Quiz.png" alt="quiz" style="width:600px">
+  <img class="mySlides" src="Registration.png" alt="Registration" style="width:600px">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+<br>
+<div class="w3-card-4">
+
+<header class="w3-container w3-light-grey">
+  <h3>Websites</h3>
+</header>
+
+<div class="w3-container">
+  <p>James Jetson</p>
+  <hr>
+  <img  src="" width="600px" alt="website1" class="w3-left w3-circle" href="">
+  <p>Personal Website</p>
+</div>
+
+<a href=""> <button class="w3-button w3-block w3-dark-grey">Vist</button></a>
+
+</div><br>
+
+<a href="https://www.linkedin.com/in/john-worthy-8904a8256/"<i class="fa fa-linkedin"></i></a>
+<a  href="mailto:camworthy9@gmail.com" ><i class="fa fa-google"></i></a>
+<a  href="mailto:camworthy9@icloud.com"><i class="fa fa-apple"></i></a>
+<a  href="mailto:camworthy9@outlook.com"><i class="fa fa-windows"></i></a>
+<p>*<small><i>Click on preferred method of email above to contact.<i></small>*</p>
+</section>
+
+
+
+
+
+</body>
